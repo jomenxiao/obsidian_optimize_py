@@ -1,0 +1,45 @@
+# Binaries
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of build tools
+/dist/
+/build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Go stuff
+*.test
+*.out
+*.log
+vendor/
+
+# Dependency directories (remove the comment below if you use Go modules)
+./vendor
+
+# Environment files
+.env
+.env.*
+
+# Test cache
+*.coverprofile
+*.testresult
+
+# Coverage
+coverage.out
+
+obsidianOptimizeMCP
+obsidianOptimizeMCP.exe
